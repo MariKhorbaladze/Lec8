@@ -1,0 +1,131 @@
+
+    img { 
+        width: 80%;
+        height: 300px;
+    }
+    
+
+    .planet { 
+        width: 20%;
+        position: relative;
+        animation: Move 8s infinite linear;
+       
+    }
+     
+    
+
+    @keyframes Move {
+        from {
+            transform: rotate(0deg);
+            
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+    
+    .astrnt { 
+        width: 20%;
+        position: relative;
+        animation: Move 8s infinite linear;
+    }
+    @keyframes second { 
+        from {
+            transform: rotate(0deg);
+            
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    } 
+    img { 
+        width: 40%;
+        height: 250px;
+    }
+
+    .rckt { 
+        width: 20%;
+        position: relative;
+        animation: Move 8s infinite linear; 
+    }
+    @keyframes thrd { 
+        from {
+            transform: rotate(0deg);
+            
+        }
+        to {
+            transform: rotate(360deg);
+        }
+
+
+
+
+    }
+
+    
+    img { 
+        width: 40%;
+        height: 250px;
+    }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+    .container { 
+        width: 1280;
+        margin: 0 auto;
+        align-items: start;
+
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .justify-between {
+        justify-content: space-between;
+    }
+.align-center{
+     align-items: center;
+      gap: 36px;
+ }
+    .nav_Link {
+
+        list-style: none;
+        gap: 36px;
+    }
+    .nav_Link li {
+font-family: 'Open Sans';
+font-style: normal;   
+font-weight: 700;    
+font-size: 14px;     
+line-height: 22px;   
+color: blueviolet;   
+text-transform: capitalize;
+
+    }
+
+    .secondary_btn { 
+        margin-left: 35px;
+        width: 102px;
+        height: 51px;
+        border: 1px solid #3b0564;
+        border-radius: 2px;
+        background-color: transparent;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+        text-align: center;
+        color: #3b0564;
+        text-transform: capitalize;
+    }
+    .primary_btn { 
+        width: 140px;
+        height: 51px;
+        border: 1px solid #3b0564;
+        border-radius: 2px
+    }
+   
+  
+ 
